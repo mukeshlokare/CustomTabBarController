@@ -13,7 +13,6 @@ class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +21,10 @@ class MenuViewController: UIViewController {
     }
     
 
+    @IBAction func closeBtn(_ sender: Any) {
+        
+        self.dismiss(animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
